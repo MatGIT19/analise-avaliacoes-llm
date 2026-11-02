@@ -1,0 +1,96 @@
+{
+  "dados": {
+    "avaliacoes_com_comentario": 42028,
+    "treino": 30753,
+    "teste": 7689,
+    "amostra_comparacao": 400
+  },
+  "classico": {
+    "teste_completo": {
+      "n": 7689,
+      "respostas_invalidas": 0,
+      "acuracia": 0.9368,
+      "f1_macro": 0.9248,
+      "precisao_negativa": 0.8427,
+      "recall_negativa": 0.9539,
+      "matriz_confusao": {
+        "linhas=real, colunas=previsto": [
+          "negativa",
+          "positiva"
+        ],
+        "valores": [
+          [
+            2068,
+            100
+          ],
+          [
+            386,
+            5135
+          ]
+        ]
+      }
+    },
+    "amostra": {
+      "n": 400,
+      "respostas_invalidas": 0,
+      "acuracia": 0.955,
+      "f1_macro": 0.955,
+      "precisao_negativa": 0.9292,
+      "recall_negativa": 0.985,
+      "matriz_confusao": {
+        "linhas=real, colunas=previsto": [
+          "negativa",
+          "positiva"
+        ],
+        "valores": [
+          [
+            197,
+            3
+          ],
+          [
+            15,
+            185
+          ]
+        ]
+      }
+    },
+    "segundos_treino": 0.78,
+    "ms_por_avaliacao": 0.0217,
+    "palavras_mais_fortes": {
+      "negativa": [
+        "nao",
+        "nao recomendo",
+        "comprei",
+        "pessimo",
+        "pessima",
+        "nao recebi",
+        "ruim",
+        "nem",
+        "veio",
+        "quebrado",
+        "demora",
+        "aguardando",
+        "quero",
+        "diferente",
+        "faltando"
+      ],
+      "positiva": [
+        "recomendo",
+        "excelente",
+        "otimo",
+        "parabens",
+        "antes",
+        "rapida",
+        "tudo",
+        "otima",
+        "amei",
+        "lindo",
+        "adorei",
+        "muito bom",
+        "rapido",
+        "perfeito",
+        "antes do"
+      ]
+    }
+  }
+}
